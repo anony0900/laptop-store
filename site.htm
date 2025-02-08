@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quark Laptop Store</title>
+    <link rel="stylesheet" href="site.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="site.htm"><img id="logo" src="/images/10.jfif" ></a>
+            <div class="nav" id="nav">
+                <i class="fa fa-times" onclick="hide()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Facility</a></li>
+                    <li><a href="">Brands</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="show()"></i>
+        </nav>
+
+        <div class="text">
+            <h2>World's Biggest Laptop Store</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, magnam quo eligendi neque, aliquid
+                repellendus nam reprehenderit blanditiis labore cum laudantium quasi provident. Natus voluptatibus ipsum
+                amet, atque esse est eveniet deserunt sed unde? Maiores nesciunt esse explicabo accusamus dolorem.</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+    </section>
+
+    <section class="brands">
+        <h2>Laptop Brands we have</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque rem saepe illo tempore eos iste cum
+            perumque?</p>
+        <div class="row">
+            <div id="brand1" class="brands-col">
+                <h3>DELL</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, soluta?</p>
+            </div>
+            <div id="brand2" class="brands-col">
+                <h3>HP</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, soluta?</p>
+            </div>
+            <div id="brand3" class="brands-col">
+                <h3>APPLE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, soluta?</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="facility">
+        <h3>Our Facility</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae tempore doloribus velit neque
+            obcaecati.</p>
+        <div class="row">
+            <div class="facility-col">
+                <img class="img1" src="/images/money.jfif">
+                <div class="layer">
+                    <h3>Best Price</h3>
+                </div>
+            </div>
+            <div class="facility-col">
+                <img class="img1" src="/images/easy.jfif">
+                <div class="layer">
+                    <h3>Easy Maintenance</h3>
+                </div>
+            </div>
+            <div class="facility-col">
+                <img class="img1" src="/images/data.jpg">
+                <div class="layer">
+                    <h3>Data Recovery</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h3>What Our Customer Says</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sed!</p>
+
+        <div class="row">
+            <div class="testinomial-col">
+                <img src="/images/a.png">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quidem a, perspiciatis repellat
+                        quaerat rem unde cupiditate obcaecati consectetur reprehenderit labore ut ullam voluptatibus eum
+                        vitae repellendus incidunt deleniti neque.</p>
+                    <h2>David</h2>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testinomial-col">
+                <img src="/images/b.png">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quidem a, perspiciatis repellat
+                        quaerat rem unde cupiditate obcaecati consectetur reprehenderit labore ut ullam voluptatibus eum
+                        vitae repellendus incidunt deleniti neque.</p>
+                    <h2>Tera</h2>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --call to action-- -->
+
+    <section class="cta">
+        <h3>Visit Us For More Info</h3>
+        <a href="" id="btn" class="hero-btn">Conatct Us</a>
+    </section>
+
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aperiam, exercitationem beatae velit
+            tempore distinctio veniam commodi <br> quibusdam excepturi maiores. Porro architecto pariatur corporis maiores?
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"> Facebook</i>
+            <i class="fa fa-twitter">Twitter</i>
+            <i class="fa fa-instagram">Instagram</i>
+            <i class="fa fa-linkedin">Linkedin</i>
+        </div>
+        <p class="p">Made with ❤️ by A.K🎩<br>Copyright &copy; www.quarklaptopstore.com. All rights reserved!</p>
+    </section>
+
+    <!-- javascript for toggle menu -->
+    <script>
+        let nav = document.getElementById("nav");
+        function show() {
+            nav.style.right = "0";
+        }
+        function hide() {
+            nav.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
